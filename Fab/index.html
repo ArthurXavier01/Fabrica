@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/header/header.css">
+    <link rel="shortcut icon" href="/src/img/icon.png" type="image/x-icon">
+    <title>Yu-Gi-Oh!</title>
+    <script src="/src/js/script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logoHeader">
+            <img src="/src/img/logo.png">
+        </div>
+        <div class="navHeader">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#cartas">Cartas</a></li>
+                    <li><a href="#contato">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="home">
+        <div class="conteudo">
+            <div class="headerConteudo">
+                <header><h1>Yu-Gi-Oh</h1></header>
+            </div>
+            <div class="textoConteudo">
+                <p>É uma série de mangá sobre jogo escrita e ilustrada por Kazuki Takahashi. A série foi originalmente publicada pela editora Shueisha na revista Weekly Shonen Jump entre 1996 e 2004.</p>
+                <p>A trama segue a história de um menino chamado Yugi Muto, que remonta o antigo Enigma do Milênio, e desperta um espírito dentro de seu corpo com a personalidade de um jogador e que resolve seus conflitos usando vários jogos.</p>
+            </div>
+        </div>
+        <div class="carrosselHome">
+            <div class="container" id="img">
+                <img src="/src/img/img1.jpg" alt="Imagem um">
+                <img src="/src/img/img2.jpg" alt="Imagem dois">
+                <img src="/src/img/img3.jpg" alt="Imagem tres">
+            </div>
+        </div>
+    </section>
+    <section class="cartas" id="cartas">
+        <div class="headerCartas">
+            <header><h1>Cartas</h1></header>
+        </div>
+        <div class="cardCartas">
+            <div class="card">
+                <div class="backgroundCarta">
+                    <div class="nomeYU">
+                        <h2 id="nome">...</h2>
+                    </div>
+                    <div class="nivelYU">
+                        <span>NIVEL: </span>
+                        <p id="nivel">...</p>
+                    </div>
+                    <div class="imgYU" id="imgYU">
+                        
+                    </div>
+                    <div class="descYU">
+                        <div class="textoDesc">
+                            <p id="desc">...</p>
+                        </div>
+                        <div class="atkDef">
+                            <p>ATK: </p>
+                            <p id="atk">...</p>
+                            <p>DEF: </p>
+                            <p id="def">...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contato" id="contato">
+        <div class="textoContato">
+            <h1 id="contatos">Entre em contato</h1>
+            <h3>com a gente</h3>
+            <p>Tenha a melhor expriência com nossas cartas</p>
+        </div>
+        <div class="formContato">
+            <form class="formulario" action="#" method="post">
+                <div class="nomesContato">
+                    <input type="text" name="nome" id="nome" placeholder="Digite o primeiro nome" required>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite o segundo nome" required>
+                </div>
+                <div class="emailContato">
+                    <input type="email" name="email" id="email" placeholder="Digite seu E-mail" required>
+                </div>
+                <div class="textoContato">
+                    <textarea name="textoContato" id="textoContato" placeholder="Digite sua mensagem" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
